@@ -1,1 +1,1 @@
-[{"name":"Paco","age":8,"breed":"Shitzu","type":"Dog","id":"ecf98e34-6822-4d37-8c04-f6f343002672"}]
+[{"name":"Paco","age":8,"breed":"Shitzu","type":"Dog","id":"ecf98e34-6822-4d37-8c04-f6f343002672"},{"name":"Trosky","age":13,"breed":"French Puddle","type":"Dog","id":"066f8622-4a97-4b0a-8331-0db6617b3afe"}]
