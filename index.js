@@ -1,5 +1,6 @@
 // Librerías externas
 const express = require('express');
+const cors = require('cors');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
@@ -12,6 +13,10 @@ const FILE_NAME = './db/pets.txt';
 // Middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+app.use(cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE']
+}));
 
 //Rutas DE PRUEBA
 app.get('/hola/:name', (req, res) => {
