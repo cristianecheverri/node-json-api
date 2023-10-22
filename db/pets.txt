@@ -1,1 +1,0 @@
-[{"name":"Paco","age":8,"breed":"Shitzu","type":"Dog","id":"ecf98e34-6822-4d37-8c04-f6f343002672"},{"name":"Trosky","age":13,"breed":"French Puddle","type":"Dog","id":"066f8622-4a97-4b0a-8331-0db6617b3afe"},{"name":"Mono","age":"12","breed":"None","type":"Cat","id":"118e5b75-8bdb-41a8-8566-f46cd366f2b4"}]
