@@ -52,10 +52,10 @@ app.post('/books', (req, res) => {
         data.push(newBook);
         // Escribir en el archivo
         writeFile(FILE_NAME, data);
-        res.json({ message: 'El libro fue creado con éxito' });
+        res.json({ ok: true, message: 'Book successfully created' });
     } catch (error) {
         console.error(error);
-        res.json({ message: 'Error al almacenar el libro' });
+        res.json({ ok:false, message: 'Failed book creating' });
     }
 });
 

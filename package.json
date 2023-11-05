@@ -4,7 +4,7 @@
   "description": "Crear una API con los módulos Built-in de Node",
   "main": "index.js",
   "scripts": {
-    "debug": "npx nodemon --inspect index.js",
+    "debug": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -22,5 +22,12 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "uuid": "^9.0.1"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "delay": 1000,
+    "env": {
+      "PORT": 4000
+    }
   }
 }
